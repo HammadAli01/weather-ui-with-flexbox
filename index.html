@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <style>
+.parent{
+    width: 100%;
+            height: 100vh;
+            background-color: rgb(224 243 237);
+}
+.card{
+    background-color: rgb(175, 221, 221);
+    /* border-radius: 20px; */
+    padding: 15px;
+    width: 30%;
+    height: 40%;
+}
+.thunder{
+    float: right;
+    margin-right: 20%;
+    font-size: 80px;
+}
+
+
+
+  </style>
+</head>
+<body>
+    <div class="d-flex flex-column justify-content-center align-items-center parent">
+        <div class="d-flex flex-column rounded-4 card">
+            <div class="d-flex flex-row " style="min-width: 100%;">
+                <div class="align-self-start flex-grow-1"><h6>Islamabad</h6></div>
+                <div class="align-self-end"><h6>10:00</h6></div>
+            </div>
+            <div class="d-flex flex-column justify-content-end align-items-center flex-fill" >
+                <h1 class="text-secondary">13<span>&deg</span> C</h1>
+            </div>
+            <div class="d-flex flex-row information no-wrap">
+                <div class="col-6 d-flex flex-column p-2 informationv1">
+                    <div class="d-flex" style="min-width: 100%; ">
+                        <i class="col-4 fa-solid fa-car"></i> 
+                        <div class="col-3">40km</div>
+                    </div>
+                    <div class="d-flex"> 
+                        <i class="col-4 fa-solid fa-temperature-empty "></i>
+                        <div class="col-3">84%</div>
+                    </div>
+                    <div class="d-flex">
+                        <i class="col-4 fa-solid fa-star "></i>
+                        <div class="col-3">0.2H</div>
+                    </div>
+                </div>
+                <div class="col-6 informationv2"><i class="fa-sharp fa-solid fa-cloud-sun-rain thunder text-secondary"></i></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  
+</body>
+</html>
